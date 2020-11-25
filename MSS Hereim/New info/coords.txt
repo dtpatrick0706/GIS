@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<StyleMap id="msn_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin71</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin71">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Total Area 1</name>
+		<description>26.9 Ac</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-110.884922484693,46.55688618504198,0 
+                        -110.8851711986614,46.55693533002509,0 
+                        -110.8851589517295,46.55595404501588,0 
+                        -110.881341112213,46.55597214113196,0 
+                        -110.8813419268186,46.55621838344516,0 
+                        -110.8811776743844,46.55619777933486,0 
+                        -110.8810347106264,46.55620343519228,0 
+                        -110.8808913258943,46.55620588750386,0 
+                        -110.8807341352297,46.5562450518532,0 
+                        -110.8805817135836,46.55636523682954,0 
+                        -110.8804593245203,46.55646148250685,0 
+                        -110.880372064735,46.55658035114353,0 
+                        -110.8805021198574,46.55668561260486,0 
+                        -110.8804717673544,46.55682474347128,0 
+                        -110.8803859336634,46.556778332812,0 
+                        -110.8802966960375,46.55685292316272,0 
+                        -110.8802094096778,46.55687781799398,0 
+                        -110.8801625402245,46.55686412509549,0 
+                        -110.8800868033638,46.55670408952997,0 
+                        -110.8798946343473,46.55665409193673,0 
+                        -110.8797783884999,46.55663919483068,0 
+                        -110.8795963404384,46.55673114204917,0 
+                        -110.8795046518803,46.55689179613147,0 
+                        -110.8794177445827,46.55698382210705,0 
+                        -110.8792885842465,46.55701261404099,0 
+                        -110.879069383114,46.55691847206452,0 
+                        -110.8787675585719,46.55697653278914,0 
+                        -110.8788533514347,46.55705609430131,0 
+                        -110.8786408929155,46.5571590488557,0 
+                        -110.878528567514,46.55706288918564,0 
+                        -110.8783039793157,46.55728301881545,0 
+                        -110.8783054176769,46.55742624556975,0 
+                        -110.8784121006816,46.55752347175439,0 
+                        -110.8787866142203,46.55762217505526,0 
+                        -110.878886319539,46.55773436379594,0 
+                        -110.8809303120991,46.55867562088343,0 
+                        -110.8849433655095,46.55792169607881,0 
+                        -110.884922484693,46.55688618504198,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
